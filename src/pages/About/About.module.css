@@ -1,0 +1,30 @@
+.container {
+    background-color: #cde599; /* Soft olive color background */
+    padding: 20px;
+    text-align: center;
+    width: 1520;
+    height: 832px;
+}
+
+.textbox {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 80%;
+    height: 100%;
+    padding: 10%;
+    border-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    color: gray;
+}
+.textbox h3 {
+    color: black;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 30px;
+}

@@ -1,0 +1,11 @@
+/* Footer.module.css */
+
+footer {
+    background-color: #e2e9b0; /* Soft olive color background */
+    color: gray;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

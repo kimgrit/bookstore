@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 80px;
+    background-color: #ffffff; /* Slightly darker olive color */
+    width: 1820px;
+    font-family: 'DNF Forged Blade';
+}
+
+header h1 {
+    font-size: 420%;
+    color: #3b3b3b;
+    margin: 5;
+}
+img {
+    position: absolute;
+    width: 80px;
+    margin-left: 20px;
+}
+
+header nav a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+    position: relative;
+    left: 1400px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+
+    align-items: right;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px; /* 모바일에서는 패딩 감소 */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center; /* 센터 정렬 */
+    }
+
+    nav ul li {
+        width: 100%; /* 모바일에서 메뉴 너비 전체 사용 */
+        text-align: center; /* 텍스트 중앙 정렬 */
+        margin: 5px 0; /* 상하 마진 설정 */
+    }
+}
